@@ -1,0 +1,293 @@
+<mxfile host="65bd71144e" modified="2021-02-03T09:47:17.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="g6gyWXqw6Dt-4DZkb0ae" version="13.10.0" type="embed">
+    <diagram id="phr0UfWaC24iLonlbE09" name="ページ1">
+        <mxGraphModel dx="10437" dy="4769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="40" width="370" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="80" width="880" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="120" width="660" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-300" y="50" width="400" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;fontColor=#f0f0f0;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;go&amp;nbsp;StreamIngestionData()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="80" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 30px&quot;&gt;MAIN&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="30" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="controllers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="20" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="streamdata.go&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="70" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="110" width="350" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="go GetRealTimeTicker()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="294" y="110" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="13" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="tickerChannel&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="140" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#f0f0f0;" parent="1" source="18" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 15px&quot;&gt;go CreateCandleWithDuration(tickerChannel,duration)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="190" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="70" width="480" height="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="models" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="50" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="candle.go" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="90" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="for each duration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="284" y="170" width="116" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="150" width="440" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="StreamIngestionData()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="90" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font style=&quot;font-size: 19px&quot;&gt;&amp;nbsp;CreateCandleWithDuration(tickerChannel,duration)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="120" width="303" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="32" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="32" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="32" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font style=&quot;font-size: 19px&quot;&gt;GetCandle(duration, ticker.TruncateDateTime(duration))&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="190" width="420" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="bitflyer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="60" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="bitflyer.go" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="100" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="404.5" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="TruncateDateTime(duration)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="380" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="41" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="GetRealTimeTicker()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="2010" y="180" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2000" y="210" width="180" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="43" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Ticker struct {..., TimeStamp, ...}&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;labelPosition=center;verticalLabelPosition=middle;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="130" width="130" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 14px&quot;&gt;get ticker from &lt;/font&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;API every single moment&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="2010" y="220" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="return Ticker instance to channel&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="2000" y="320" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="345" width="290" height="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="DateTime()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1630" y="310" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="ticker.TimeStamp -&amp;gt; datetime: RFC3339" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="370" width="290" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="instance ticker" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="56" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="56" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="ticker.DateTime().Truncate(duration)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="420" width="245" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(255 , 179 , 102)&quot;&gt;DBに保存できる形になった&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1365" y="500" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="DBにtime時におけるrowがあるか問い合わせ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="160" width="350" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="なければつくる" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="あれば更新する" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="DBにTicker情報を保存できた" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;labelBackgroundColor=#FFB366;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="817" y="400" width="303" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font style=&quot;font-size: 19px&quot;&gt;tickerのTimestampを加工した&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFB366;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1650" y="447.5" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Tickerを取得した&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFB366;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="2010" y="405" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFB366;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="-310" width="1120" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="SQLデータベース" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="-370" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="1時間ごとのticker情報" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="-260" width="210" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="１分ごとのticker情報" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="-260" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="1秒ごとのticker情報" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="-260" width="218.5" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="-260" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="BTC_JPY_1h0m0s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="278" y="-290" width="144" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="BTC_JPY_1m0s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="-290" width="144" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="BTC_JPY_1s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="-290" width="144" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="signal events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="-290" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font style=&quot;font-size: 18px&quot;&gt;StartWebServer&lt;/font&gt;()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="-150" y="150" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="&lt;font style=&quot;font-size: 20px&quot;&gt;GetAllCandle (duration, limit)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="560" width="280" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="620" width="360" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#f0f0f0;" parent="1" source="89" target="91" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&lt;span style=&quot;background-color: rgb(255 , 179 , 102)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;limitで指定した数だけdurationのデータベースからticker情報を取得&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="640" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="DataFrameCandle構造体のインスタンスdfに取得したCandle情報を挿入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="777" y="720" width="273" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#f0f0f0;" parent="1" source="93" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1260" y="1060"/>
+                            <mxPoint x="1260" y="750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="940" width="440" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="dfcandle.go" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="777" y="950" width="143" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="DataFrameCandle構造体を定義" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="789" y="1010" width="351" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=16;fontColor=#f0f0f0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="87" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="570" as="sourcePoint"/>
+                        <mxPoint x="1210" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;fontColor=#f0f0f0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-310" y="1080" as="sourcePoint"/>
+                        <mxPoint x="-320" y="-750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" value="&lt;font style=&quot;font-size: 40px&quot;&gt;BACKEND&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="-550" width="550" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;font style=&quot;font-size: 40px&quot;&gt;FRONTEND&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="-1180" y="-550" width="330" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="1330" width="410" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="google.html" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="144" y="1280" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="158" y="640" width="412" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="WEBSERVER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="158" y="610" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;span style=&quot;&quot;&gt;/chart/&lt;/span&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#000000;fontSize=16;fontColor=#f0f0f0;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="670" width="380" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.564;entryY=-0.233;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;fontColor=#f0f0f0;" parent="1" source="110" target="112" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="&lt;font style=&quot;font-size: 19px&quot;&gt;GetAllCandle (duration=&quot;1m&quot;, limit=100)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="158" y="710" width="371" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="return df" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="810" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="112" target="106">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="124" y="800"/>
+                            <mxPoint x="124" y="1302"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="データベースからCandles df を取得" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="790" width="290" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="templateでパース、df.Candlesを与える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1220" width="300" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="/api/candle/" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="860" width="390" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="リクエストクエリからproductCode duration limitを取得しGetAllCandle、返り値をjson化してレスポンスライトする" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="900" width="350" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

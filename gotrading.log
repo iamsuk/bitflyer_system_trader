@@ -1,0 +1,9 @@
+2021/02/03 18:39:09 server.go:3095: http: superfluous response.WriteHeader call from github.com/iamsuk/bitflyer_system_trader/app/controllers.apiCandleHandler (webserver.go:77)
+2021/02/03 18:39:37 server.go:3095: http: superfluous response.WriteHeader call from github.com/iamsuk/bitflyer_system_trader/app/controllers.apiCandleHandler (webserver.go:77)
+2021/02/03 18:52:29 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/03 18:54:30 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/03 19:11:00 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/03 19:15:30 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/03 19:33:39 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/03 19:34:12 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/03 19:34:27 bitflyer.go:199: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
